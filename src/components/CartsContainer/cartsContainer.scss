@@ -1,0 +1,27 @@
+.carts_container {
+  flex-basis: 74%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 23px;
+
+  &::after {
+    content: "";
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-device-width: 375px) {
+  .carts_container {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 23px;
+  
+    &::after {
+      content: "";
+      justify-content: space-around;
+    }
+  }
+}

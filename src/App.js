@@ -21,7 +21,6 @@ export function App() {
           <img src={icon_refresh} alt="refresh" />
         </button>
       </div>
-
     </div>
   );
 };
